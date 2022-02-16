@@ -2,6 +2,7 @@ body {
   /* font-family: "Source Sans Pro", sans-serif; */
   font-family: 'Rubik', sans-serif;
   color: #34495e;
+  font-size: 18px;
 }
 
 #Header {
@@ -41,7 +42,7 @@ nav {
 /* Intro titles */
 .header_intro {
   text-align: center;
-  padding-bottom: 10%;
+  padding-bottom: 6%;
   font-family: 'Rubik', sans-serif;
   font-weight: 700;
 }
@@ -84,23 +85,35 @@ h1 {
 
 #aboutMe {
   background-color: white;
-  font-size: 1.25rem;
+  font-size: 1.15rem;
 }
 
 .about-me-div {
   padding: 8%;
 }
 
-.descrip {
-  margin-top: 50px;
-  font-size: 1em;
+#aboutMe p{ 
+  margin-bottom: 1rem;
+  margin-top: 1rem;
 }
+
+
 
 /* Education */
 #Education {
   background-color: #eeeeee;
   /* color: black; */
 }
+
+#Education h5, h6{
+  color: #454c50;
+}
+
+#Education h4{
+  font-size: 1.4rem;
+  font-weight: 450;
+}
+
 
 .Education-block {
   padding: 15px;
@@ -118,6 +131,14 @@ h1 {
   border: 3px solid rgb(83, 81, 81);
   border-top: 3px;
   border-radius: 3px;
+}
+
+.Education-block h5{
+  font-size: 1rem;
+}
+
+.Education-block-next h5{
+  font-size: 1rem;
 }
 
 /* Projects */
@@ -198,30 +219,34 @@ h1 {
 }
 
 .experience-timeline > div h3 {
-  font-size: 1.6em;
+  font-size: 1.4rem;
   font-weight: 400;
   /* color: #374054; */
   display: inline-block;
   margin: 0;
 }
 
-.experience-timeline > div h4 {
-  font-size: 1.25em;
+.experience-timeline h6 {
+  font-size: 1.2rem;
   font-weight: 300;
   /* color: #7e8890; */
-  margin: 0 0 15px 0;
+  margin: 0 0 12px 0;
 }
 
 .experience-timeline > div ul {
   /* color: #1b1d1f; */
-  font-size: 1.25em;
+  /* font-size: 1.1em; */
   margin: 0;
+  padding-top: 15px;
+  padding-bottom: 15px;
 }
 
 .experience-date{
-    width: 300px;
+    /* width: 300px; */
     display: inline-block;
-    float: left;
+    float: right;
+    margin-top: 5px;
+
 }
 
 
@@ -267,7 +292,7 @@ h1 {
 }
 
 .skills-border{
-  border: 2px solid black;
+  border: 2px solid rgb(112, 109, 109);
   border-radius: 10px;
 }
 
@@ -301,9 +326,15 @@ h1 {
   /* margin-right: 50px; */
 }
 
+#Contact .row{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+
 #Contact a{
   color: #454360!important;
-  margin-right: 75px;
+  margin-right: 65px;
  }
 
 .social-icons{
